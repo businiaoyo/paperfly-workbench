@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories { google(); mavenCentral(); gradlePluginPortal() }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories { google(); mavenCentral() }
+}
+rootProject.name = 'OpenWorkbench'
+include ':app'
+include ':wireless-adb'
+project(':wireless-adb').projectDir = file('third_party/libadb-android-bc')
+// Optional disposable device fixture; never linked or packaged into :app.
+include ':probe'
+project(':probe').projectDir = file('validation/probe')

@@ -1,0 +1,9 @@
+<resources>
+    <string name="stage_app_fullscreen">当前应用全屏</string>
+    <string name="stage_app_fullscreen_detail">独占屏幕，返回后恢复原布局</string>
+    <string name="stage_workspace_fullscreen">工作台全屏</string>
+    <string name="stage_leave_workspace_fullscreen">退出工作台全屏</string>
+    <string name="stage_leave_fullscreen">退出全屏</string>
+    <string name="stage_return_workspace">返回工作台</string>
+    <string name="stage_return_workspace_description">退出单个应用全屏，恢复工作台布局</string>
+</resources>

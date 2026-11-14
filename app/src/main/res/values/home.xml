@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_name">开放工作台</string>
+    <string name="home_tagline">把常用应用，放在一起。</string>
+    <string name="home_ready">已就绪</string>
+    <string name="home_inactive">待激活</string>
+    <string name="home_help">帮助与设置</string>
+    <string name="home_activation_title">开始前，先激活工作台</string>
+    <string name="home_activation_detail">在这台平板上完成无线激活，即可开始使用。</string>
+    <string name="home_activate">开始激活</string>
+    <string name="home_last">上次使用</string>
+    <string name="home_workspace">你的工作台</string>
+    <string name="home_continue_title">继续你的工作台</string>
+    <string name="home_empty_title">从一个工作台开始</string>
+    <string name="home_empty_detail">自动带入最近使用的应用，接着做手头的事。</string>
+    <string name="home_continue">继续工作台</string>
+    <string name="home_continue_accessibility">继续上次工作台</string>
+    <string name="home_start">打开工作台</string>
+    <string name="home_opening">正在打开…</string>
+    <string name="home_activate_enter">前往激活</string>
+    <string name="home_apps_count">%1$d 个应用</string>
+    <string name="home_split_count">%1$d 个应用 · 含分屏卡片</string>
+    <string name="home_recent">接续最近应用</string>
+    <string name="home_recent_detail">把最近用过的应用，带进同一个工作台。</string>
+    <string name="home_recent_note">最多接续 5 个应用</string>
+    <string name="home_recent_action">从最近应用开始</string>
+    <string name="home_recent_loading">正在接续…</string>
+    <string name="home_sets">我的应用组合</string>
+    <string name="home_manage">管理</string>
+    <string name="home_new">新建组合</string>
+    <string name="home_new_accessibility">新建应用组合</string>
+    <string name="home_sets_empty">为日常，留一组常用应用</string>
+    <string name="home_sets_detail">选好浏览器、笔记或聊天应用，下次一点就能一起打开。</string>
+    <string name="home_set_open">打开应用组合%1$s，%2$d个应用</string>
+    <string name="home_saved_hint">保存常用搭配，下次一键打开</string>
+    <string name="home_retry">重新加载</string>
+    <string name="home_loading">正在读取工作台…</string>
+    <string name="home_loading_apps">正在读取应用…</string>
+</resources>

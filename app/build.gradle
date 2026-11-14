@@ -1,0 +1,29 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'cn.paperfly.workbench'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'cn.paperfly.workbench'
+        minSdk 30
+        targetSdk 34
+        versionCode 47
+        versionName '0.17.0-test.9'
+    }
+    buildFeatures { aidl true; buildConfig true }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+}
+
+dependencies {
+    implementation project(':wireless-adb')
+    implementation 'org.bouncycastle:bcpkix-jdk15to18:1.84'
+    testImplementation 'junit:junit:4.13.2'
+    // JVM implementation of Android's org.json API, only for persistence/migration tests.
+    testImplementation 'org.json:json:20240303'
+}

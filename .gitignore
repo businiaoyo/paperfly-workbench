@@ -1,0 +1,14 @@
+.gradle/
+.DS_Store
+**/build/
+local.properties
+.idea/
+*.iml
+.test-classes/
+.runtime/
+dist/
+*.keystore
+*.jks
+
+.env*
+!.env.example

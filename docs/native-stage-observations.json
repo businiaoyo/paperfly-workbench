@@ -1,0 +1,523 @@
+{
+  "date": "2026-11-07",
+  "status": "Native vivo observations only; replacement backend not implemented or validated",
+  "device": {
+    "ro.product.manufacturer": "vivo",
+    "ro.product.model": "iPA2693",
+    "ro.product.marketname": "",
+    "ro.build.version.release": "17",
+    "ro.build.version.sdk": "37",
+    "ro.build.display.id": "DPD2653_A_17.0.6.19.W10",
+    "ro.vivo.os.version": "17.0",
+    "ro.vivo.os.name": "Funtouch",
+    "size": "Physical size: 1440x2304",
+    "density": "Physical density: 400"
+  },
+  "layout": "landscape 2304x1440",
+  "native_root_task": {
+    "id": 80,
+    "windowing_mode": "vivo-multi-task",
+    "created_by_organizer": true,
+    "display_id": 0
+  },
+  "phases": {
+    "calc_added": [
+      {
+        "task_id": 93,
+        "isMainAppInVivoMultiTask": "true",
+        "positionIdInVivoMultiTask": "0",
+        "pointInVivoMultiTask": "Point(504, 120)",
+        "scaleInVivoMultiTask": "0.71875",
+        "mPointInfoInVivoMultiTask": "[504.0, 120.0, 2160.0, 120.0, 2160.0, 1155.0, 504.0, 1155.0]",
+        "processes": [
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}",
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}"
+        ],
+        "activities": [
+          "com.android.settings/.Settings$VivoWifiSettingsActivity",
+          "com.android.settings/.homepage.SettingsHomepageActivity"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(718, 0 - 2304, 1440)}",
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 714, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false",
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "170272601"
+      },
+      {
+        "task_id": 98,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "1",
+        "pointInVivoMultiTask": "Point(145, 373)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 373.0, 465.0, 399.0, 465.0, 624.0, 145.0, 619.0]",
+        "processes": [
+          "app=ProcessRecord{5f6790a 10603:com.android.bbkcalculator/u0a234}"
+        ],
+        "activities": [
+          "com.android.bbkcalculator/.Calculator"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "75463384"
+      }
+    ],
+    "calc_main": [
+      {
+        "task_id": 98,
+        "isMainAppInVivoMultiTask": "true",
+        "positionIdInVivoMultiTask": "0",
+        "pointInVivoMultiTask": "Point(504, 120)",
+        "scaleInVivoMultiTask": "0.71875",
+        "mPointInfoInVivoMultiTask": "[504.0, 120.0, 2160.0, 120.0, 2160.0, 1155.0, 504.0, 1155.0]",
+        "processes": [
+          "app=ProcessRecord{5f6790a 10603:com.android.bbkcalculator/u0a234}"
+        ],
+        "activities": [
+          "com.android.bbkcalculator/.Calculator"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "75463384"
+      },
+      {
+        "task_id": 93,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "1",
+        "pointInVivoMultiTask": "Point(145, 373)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 373.0, 465.0, 399.0, 465.0, 624.0, 145.0, 619.0]",
+        "processes": [
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}",
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}"
+        ],
+        "activities": [
+          "com.android.settings/.Settings$VivoWifiSettingsActivity",
+          "com.android.settings/.homepage.SettingsHomepageActivity"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(718, 0 - 2304, 1440)}",
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 714, 1440)}"
+        ],
+        "states": [
+          "state=STOPPED delayedResume=false finishing=false",
+          "state=STOPPED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "170272601"
+      }
+    ],
+    "clock_added": [
+      {
+        "task_id": 98,
+        "isMainAppInVivoMultiTask": "true",
+        "positionIdInVivoMultiTask": "0",
+        "pointInVivoMultiTask": "Point(504, 120)",
+        "scaleInVivoMultiTask": "0.71875",
+        "mPointInfoInVivoMultiTask": "[504.0, 120.0, 2160.0, 120.0, 2160.0, 1155.0, 504.0, 1155.0]",
+        "processes": [
+          "app=ProcessRecord{5f6790a 10603:com.android.bbkcalculator/u0a234}"
+        ],
+        "activities": [
+          "com.android.bbkcalculator/.Calculator"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "75463384"
+      },
+      {
+        "task_id": 99,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "2",
+        "pointInVivoMultiTask": "Point(145, 515)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 515.0, 465.0, 529.0, 465.0, 754.0, 145.0, 761.0]",
+        "processes": [
+          "app=ProcessRecord{ef4c227 595:com.android.BBKClock/u0a238}"
+        ],
+        "activities": [
+          "com.android.BBKClock/.Timer"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "208355450"
+      },
+      {
+        "task_id": 93,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "1",
+        "pointInVivoMultiTask": "Point(145, 231)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 231.0, 465.0, 268.0, 465.0, 493.0, 145.0, 477.0]",
+        "processes": [
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}",
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}"
+        ],
+        "activities": [
+          "com.android.settings/.Settings$VivoWifiSettingsActivity",
+          "com.android.settings/.homepage.SettingsHomepageActivity"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(718, 0 - 2304, 1440)}",
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 714, 1440)}"
+        ],
+        "states": [
+          "state=STOPPED delayedResume=false finishing=false",
+          "state=STOPPED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "170272601"
+      }
+    ],
+    "clock_main": [
+      {
+        "task_id": 99,
+        "isMainAppInVivoMultiTask": "true",
+        "positionIdInVivoMultiTask": "0",
+        "pointInVivoMultiTask": "Point(504, 120)",
+        "scaleInVivoMultiTask": "0.71875",
+        "mPointInfoInVivoMultiTask": "[504.0, 120.0, 2160.0, 120.0, 2160.0, 1155.0, 504.0, 1155.0]",
+        "processes": [
+          "app=ProcessRecord{ef4c227 595:com.android.BBKClock/u0a238}"
+        ],
+        "activities": [
+          "com.android.BBKClock/.Timer"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "208355450"
+      },
+      {
+        "task_id": 98,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "2",
+        "pointInVivoMultiTask": "Point(145, 515)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 515.0, 465.0, 529.0, 465.0, 754.0, 145.0, 761.0]",
+        "processes": [
+          "app=ProcessRecord{5f6790a 10603:com.android.bbkcalculator/u0a234}"
+        ],
+        "activities": [
+          "com.android.bbkcalculator/.Calculator"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "75463384"
+      },
+      {
+        "task_id": 93,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "1",
+        "pointInVivoMultiTask": "Point(145, 231)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 231.0, 465.0, 268.0, 465.0, 493.0, 145.0, 477.0]",
+        "processes": [
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}",
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}"
+        ],
+        "activities": [
+          "com.android.settings/.Settings$VivoWifiSettingsActivity",
+          "com.android.settings/.homepage.SettingsHomepageActivity"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(718, 0 - 2304, 1440)}",
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 714, 1440)}"
+        ],
+        "states": [
+          "state=STOPPED delayedResume=false finishing=false",
+          "state=STOPPED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "170272601"
+      }
+    ],
+    "running_clock_side": [
+      {
+        "task_id": 98,
+        "isMainAppInVivoMultiTask": "true",
+        "positionIdInVivoMultiTask": "0",
+        "pointInVivoMultiTask": "Point(504, 120)",
+        "scaleInVivoMultiTask": "0.71875",
+        "mPointInfoInVivoMultiTask": "[504.0, 120.0, 2160.0, 120.0, 2160.0, 1155.0, 504.0, 1155.0]",
+        "processes": [
+          "app=ProcessRecord{5f6790a 10603:com.android.bbkcalculator/u0a234}"
+        ],
+        "activities": [
+          "com.android.bbkcalculator/.Calculator"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "75463384"
+      },
+      {
+        "task_id": 99,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "2",
+        "pointInVivoMultiTask": "Point(145, 515)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 515.0, 465.0, 529.0, 465.0, 754.0, 145.0, 761.0]",
+        "processes": [
+          "app=ProcessRecord{ef4c227 595:com.android.BBKClock/u0a238}"
+        ],
+        "activities": [
+          "com.android.BBKClock/.Timer"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "208355450"
+      },
+      {
+        "task_id": 93,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "1",
+        "pointInVivoMultiTask": "Point(145, 231)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 231.0, 465.0, 268.0, 465.0, 493.0, 145.0, 477.0]",
+        "processes": [
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}",
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}"
+        ],
+        "activities": [
+          "com.android.settings/.Settings$VivoWifiSettingsActivity",
+          "com.android.settings/.homepage.SettingsHomepageActivity"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(718, 0 - 2304, 1440)}",
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 714, 1440)}"
+        ],
+        "states": [
+          "state=STOPPED delayedResume=false finishing=false",
+          "state=STOPPED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "170272601"
+      }
+    ],
+    "running_clock_side_later": [
+      {
+        "task_id": 98,
+        "isMainAppInVivoMultiTask": "true",
+        "positionIdInVivoMultiTask": "0",
+        "pointInVivoMultiTask": "Point(504, 120)",
+        "scaleInVivoMultiTask": "0.71875",
+        "mPointInfoInVivoMultiTask": "[504.0, 120.0, 2160.0, 120.0, 2160.0, 1155.0, 504.0, 1155.0]",
+        "processes": [
+          "app=ProcessRecord{5f6790a 10603:com.android.bbkcalculator/u0a234}"
+        ],
+        "activities": [
+          "com.android.bbkcalculator/.Calculator"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "75463384"
+      },
+      {
+        "task_id": 99,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "2",
+        "pointInVivoMultiTask": "Point(145, 515)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 515.0, 465.0, 529.0, 465.0, 754.0, 145.0, 761.0]",
+        "processes": [
+          "app=ProcessRecord{ef4c227 595:com.android.BBKClock/u0a238}"
+        ],
+        "activities": [
+          "com.android.BBKClock/.Timer"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "208355450"
+      },
+      {
+        "task_id": 93,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "1",
+        "pointInVivoMultiTask": "Point(145, 231)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 231.0, 465.0, 268.0, 465.0, 493.0, 145.0, 477.0]",
+        "processes": [
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}",
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}"
+        ],
+        "activities": [
+          "com.android.settings/.Settings$VivoWifiSettingsActivity",
+          "com.android.settings/.homepage.SettingsHomepageActivity"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(718, 0 - 2304, 1440)}",
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 714, 1440)}"
+        ],
+        "states": [
+          "state=STOPPED delayedResume=false finishing=false",
+          "state=STOPPED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "170272601"
+      }
+    ],
+    "rapid_target_clock": [
+      {
+        "task_id": 99,
+        "isMainAppInVivoMultiTask": "true",
+        "positionIdInVivoMultiTask": "0",
+        "pointInVivoMultiTask": "Point(504, 120)",
+        "scaleInVivoMultiTask": "0.71875",
+        "mPointInfoInVivoMultiTask": "[504.0, 120.0, 2160.0, 120.0, 2160.0, 1155.0, 504.0, 1155.0]",
+        "processes": [
+          "app=ProcessRecord{ef4c227 595:com.android.BBKClock/u0a238}"
+        ],
+        "activities": [
+          "com.android.BBKClock/.Timer"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "208355450"
+      },
+      {
+        "task_id": 93,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "2",
+        "pointInVivoMultiTask": "Point(145, 515)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 515.0, 465.0, 529.0, 465.0, 754.0, 145.0, 761.0]",
+        "processes": [
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}",
+          "app=ProcessRecord{b455d5b 21542:com.android.settings/1000}"
+        ],
+        "activities": [
+          "com.android.settings/.Settings$VivoWifiSettingsActivity",
+          "com.android.settings/.homepage.SettingsHomepageActivity"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(718, 0 - 2304, 1440)}",
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=true, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 714, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false",
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "170272601"
+      },
+      {
+        "task_id": 98,
+        "isMainAppInVivoMultiTask": "false",
+        "positionIdInVivoMultiTask": "1",
+        "pointInVivoMultiTask": "Point(145, 231)",
+        "scaleInVivoMultiTask": "0.1388889",
+        "mPointInfoInVivoMultiTask": "[145.0, 231.0, 465.0, 268.0, 465.0, 493.0, 145.0, 477.0]",
+        "processes": [
+          "app=ProcessRecord{5f6790a 10603:com.android.bbkcalculator/u0a234}"
+        ],
+        "activities": [
+          "com.android.bbkcalculator/.Calculator"
+        ],
+        "window_info": [
+          "mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 2304, 1440), taskFragmentBounds=Rect(0, 0 - 2304, 1440)}"
+        ],
+        "states": [
+          "state=RESUMED delayedResume=false finishing=false"
+        ],
+        "activity_record_id": "75463384"
+      }
+    ]
+  },
+  "live_side_stopwatch": {
+    "task_id": 99,
+    "manually_read_times": [
+      "00:02.18",
+      "00:06.85"
+    ],
+    "evidence": [
+      ".runtime/vivo-research/running_clock_side/screen.png",
+      ".runtime/vivo-research/running_clock_side_later/screen.png"
+    ],
+    "limitation": "Screenshot observations; no exact frame-rate or latency measurement"
+  },
+  "rapid_selection": {
+    "host_command_offsets_seconds": [
+      0.0,
+      0.1466
+    ],
+    "selected_tasks": [
+      93,
+      99
+    ],
+    "settled_main_task": 99,
+    "limitation": "Host command timing, not hardware touch timestamps; does not distinguish queuing from animation retargeting"
+  },
+  "shell_permissions": {
+    "vivo": {
+      "MANAGE_ACTIVITY_TASKS": true,
+      "CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS": true,
+      "ADD_TRUSTED_DISPLAY": true,
+      "INJECT_EVENTS": true,
+      "INTERNAL_SYSTEM_WINDOW": true,
+      "ACCESS_SURFACE_FLINGER": true,
+      "READ_FRAME_BUFFER": true
+    },
+    "honor": {
+      "MANAGE_ACTIVITY_TASKS": true,
+      "CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS": true,
+      "ADD_TRUSTED_DISPLAY": true,
+      "INJECT_EVENTS": true,
+      "INTERNAL_SYSTEM_WINDOW": true,
+      "ACCESS_SURFACE_FLINGER": true,
+      "READ_FRAME_BUFFER": true
+    }
+  },
+  "cleanup": {
+    "window_animation_scale": "1.0",
+    "transition_animation_scale": "1.0",
+    "animator_duration_scale": "1.0",
+    "vivo_multi_task_mode": "0",
+    "focused_window": [
+      "mCurrentFocus=Window{79e5b4c u0 com.bbk.launcher2/com.bbk.launcher2.Launcher type=1}",
+      "mFocusedApp=ActivityRecord{134669412 u0 com.bbk.launcher2/.Launcher t2 d0}"
+    ],
+    "vivo_multi_task_mode_namespace": "system"
+  },
+  "application_status": "No new APK installed; v0.4.0 remains a rejected usability prototype",
+  "raw_evidence_directory": ".runtime/vivo-research/"
+}
